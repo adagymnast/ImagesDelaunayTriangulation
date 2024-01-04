@@ -7,6 +7,8 @@ The program generates an image composed of triangles from a given input image. T
 
 ## Algorithm
 
+<img src="images/adel.png" width="350" title="Adel triangles">
+
 For a chosen fixed size of a square neighborhood, the average color value in the neighborhood is calculated for each pixel. Subsequently, the sum of the squared differences between the average value and pixel values in the neighborhood is computed, referred to as differences. The result is scaled to form a probability distribution, ensuring the total sum of these differences is one.
 
 Another option for creating a distribution is selecting points using the Sobel operator, a convolution with a mask corresponding to the derivative in one direction, or a suitable function derived from the convolution results with the Sobel operator in both x and y directions. The results for each pixel are then scaled to form a probability distribution.
