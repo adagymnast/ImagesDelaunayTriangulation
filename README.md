@@ -7,7 +7,7 @@ The program generates an image composed of triangles from a given input image. T
 
 ## Algorithm
 
-<img src="images/adel_delaunay.png" width="350" title="Adel triangles">
+<img src="images/adel_delaunay.png" width="550" title="Adel triangles">
 
 For a chosen fixed size of a square neighborhood, the average color value in the neighborhood is calculated for each pixel. Subsequently, the sum of the squared differences between the average value and pixel values in the neighborhood is computed, referred to as differences. The result is scaled to form a probability distribution, ensuring the total sum of these differences is one.
 
