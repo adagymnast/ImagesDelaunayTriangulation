@@ -25,9 +25,9 @@ The program is written in the Python language. It utilizes the numpy library for
 
 ### Parameters:
 
-• SIZE_X, SIZE_Y: part of image where we want to compute, default=-1 (whole image)
-• path: path to specific image
-• method (= Similarity / Sobel): which method is used for computation (default=’similarity’)
-• PART: density of chosen pixels, 1 pixel/PART pixels, default=80
-• STEP: how many triangles next step in animation
-• KERNEL_SIZE: size of kernel for algorithm (neighborhood), default=5
+- SIZE_X, SIZE_Y: part of image where we want to compute, default=-1 (whole image)
+- path: path to specific image
+- method (= Similarity / Sobel): which method is used for computation (default=’similarity’)
+- ART: density of chosen pixels, 1 pixel/PART pixels, default=80
+- STEP: how many triangles next step in animation
+- KERNEL_SIZE: size of kernel for algorithm (neighborhood), default=5
